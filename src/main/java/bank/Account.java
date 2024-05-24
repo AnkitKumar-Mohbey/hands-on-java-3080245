@@ -5,7 +5,8 @@ public class Account {
   private String type;
   private double balance;
 
-  public Account(int id, String type, double balance){
+  // Constructor: Used to initialize object by setting there state
+  public Account(int id, String type, double balance) {
     setId(id);
     setType(type);
     setBalance(balance);
@@ -35,6 +36,4 @@ public class Account {
     this.balance = balance;
   }
 
-
 }
-
